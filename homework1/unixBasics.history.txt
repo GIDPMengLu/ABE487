@@ -1,0 +1,946 @@
+    1  mkdir blast
+    2  scp menglu@login.hpc.arizona.edu:~/example/blast
+    3  ls
+    4  scp menglu@login.hpc.arizona.edu:~/blast/gi_taxid_nucl.dmp.gz 
+    5  ls
+    6  blast
+    7  ls blast
+    8  ls
+    9  pwd
+   10  scp count.c menglu@login.arizona.edu:~/blast
+   11  scp count.c menglu@login.hpc.arizona.edu:~/blast
+   12  ls
+   13  scp /Users/mlu/Research/BLAST_training/count.c menglu@login.hpc.arizona.edu:~/blast
+   14  ls
+   15  cd blast/
+   16  ls
+   17  lsls
+   18  ls
+   19  gcc count.c -Wall -o count 
+   20  ls
+   21  ftp ftp.ncbi.nih.gov
+   22  ftp://ftp.ncbi.nih.gov//pub/taxonomy
+   23  ftp://ftp.ncbi.nih.gov
+   24  ftp ftp.ncbi.nih.gov
+   25  ls -l
+   26  gunzip gi_taxid_nucl.dmp.gz
+   27  vi tamer0.csh
+   28  tar -zxvf taxdump.tar.gz
+   29  vi tamer0.csh
+   30  pwd
+   31  vi tamer0.csh
+   32  qsub tamer0.csh
+   33  qstat –u menglu 
+   34  ls -l
+   35  ls -l *.dmp
+   36  rm c*.dmp
+   37  ls -l d*dmp
+   38  tar -zxvf taxdump.tar.gz
+   39  ls
+   40  rm c*.dmp
+   41  rm d*.dmp
+   42  ls -l
+   43  rm g*
+   44  ls -l
+   45  ftp ftp.ncbi.nih.gov
+   46  xdisk -c create menglu
+   47  cd /gsfs1/xdisk/menglu
+   48  cp /home/u26/menglu/blast/*.gz .
+   49  ls
+   50  gunzip gi_taxid_nucl.dmp.gz
+   51  tar -zxvf taxdump.tar.gz 
+   52  ls -l
+   53  cd ..
+   54  ls -l
+   55  cd bio5
+   56  ls
+   57  cd ..
+   58  ls
+   59  cd xdisk/
+   60  ls
+   61  cd menglu/
+   62  ls
+   63  cd
+   64  ls -l
+   65  cd blast/
+   66  ls
+   67  rm m*.dmp
+   68  ls
+   69  cd ..
+   70  ls
+   71  cd ..
+   72  ls
+   73  cd blast
+   74  cd menglu/
+   75  ls
+   76  cd blast/
+   77  ls
+   78  pwd
+   79  cp /gsfs1/xdisk/menglu/gc.prt /home/u26/menglu/blast/gc.prt
+   80  ls
+   81  qsub tamer0.csh 
+   82  qstat –u menglu 
+   83  rm blast_steps.doc
+   84  ls -l
+   85  cp taxdump.tar.gz /gsfs1/xdisk/menglu/
+   86  cd /gsfs1/xdisk/menglu/
+   87  ls -l
+   88  tar -zxvf taxdump.tar.gz
+   89  ls -l
+   90  rm c*.dmp
+   91  rm d*.dmp
+   92  rm m*.dmp
+   93  rm no*.dmp
+   94  rm *.txt
+   95  ls -l
+   96  rm *prt
+   97  rm ge*.dmp
+   98  ls -l
+   99  cp /home/u26/menglu/blast/tamer0.csh 
+  100  cp /home/u26/menglu/blast/tamer0.csh tamer0csh
+  101  ls -l
+  102  cp /home/u26/menglu/blast/SRR578322.fasta SRR578322.fasta
+  103  ls -l
+  104  vi SRR578322.fasta
+  105  cp /home/u26/menglu/blast/tamer0.csh tamer0.csh
+  106  ls -l
+  107  rm tamer0csh
+  108  ls -l
+  109  vi SRR578322.fasta
+  110  qsub tamer0.csh 
+  111  qstat –u menglu 
+  112  ls
+  113  ls -l
+  114  vi blast0.e251855 
+  115  vi tamer0.csh 
+  116  cp /home/u26/menglu/blast/count.c .
+  117  ls
+  118  gcc count.c -Wall -o count
+  119  qsub tamer0.csh 
+  120  qstat –u menglu 
+  121  ls -l
+  122  qsub tamer0.csh 
+  123  qstat –u menglu 
+  124  vi tamer0.csh 
+  125  qsub tamer0.csh 
+  126  qstat -u menglu 
+  127  ls
+  128  qstat -u menglu
+  129  vi count.c
+  130  qstat -u menglu
+  131  ls -l
+  132  vi blast0.e251855
+  133  vi blast0.o251855
+  134  qstat -u menglu
+  135  vi small.fasta 
+  136  vi SRR578322.fasta 
+  137  vi blast0.o251856
+  138  vi count
+  139  pwd
+  140  vi temp_end0.txt 
+  141  vi blast0.e251857]
+  142  vi blast0.e251857
+  143  vi tamer0.csh 
+  144  vi small.out 
+  145  vi count.c
+  146  vi blast0.o251858
+  147  vi blast0.e251858
+  148  vi tamer0.csh 
+  149  qsub tamer0.csh 
+  150  qstat -u menglu
+  151  ls -l
+  152  qsub tamer0.csh 
+  153  qstat -u menglu
+  154  ls
+  155  ls -l
+  156  vi small.out 
+  157  ls
+  158  ls -l
+  159  qstat -u menglu
+  160  ls
+  161  ls -l
+  162  qstat -u menglu
+  163  ls
+  164  ls -l
+  165  ls
+  166  ls -l
+  167  vi temp0.map 
+  168  vi temp0.txt
+  169  vi temp_start0.txt
+  170  ls -l
+  171  qstat -u menglu
+  172  vi blast0.o251866
+  173  vi blast0.e251866
+  174  qsub tamer0.csh 
+  175  qstat -u menglu
+  176  ls
+  177  ls -l
+  178  vi small.out 
+  179  vi tamer0.csh 
+  180  vi temp0.map
+  181  vi small.out 
+  182  vi tamer0.csh 
+  183  vi small.fasta 
+  184  vi small.out 
+  185  head small.out 
+  186  vi small.out 
+  187  ls -l
+  188  cd blast/
+  189  ls -l
+  190  cd /gsfs1/xdisk/menglu
+  191  ls
+  192  ls -l
+  193  qsub tamer0.csh 
+  194  qstat -u menglu
+  195  ls -l
+  196  vi small.out 
+  197  cd /gsfs1/xdisk/menglu
+  198  le -l
+  199  ls -l
+  200  vi tamer0.csh 
+  201  vi names.dmp 
+  202  vi temp0.map 
+  203  cp /Users/mlu/Untitled-454.cb6ca173.fna test.fna
+  204  cp /Users/mlu/Untitled-454.cb6ca173.fna
+  205  cp /Users/mlu/Untitled-454.cb6ca173.fna Untitled-454.cb6ca173.fna
+  206  ls -l
+  207  vi count
+  208  pwd
+  209  cp /Users/mlu/Untitled-454.cb6ca173.fna Untitled-454.cb6ca173.fna
+  210  ls -l
+  211  vi SRR578322.fasta 
+  212  vi count.c
+  213  vi SRR578322.fasta 
+  214  cd /gsfs1/xdisk/menglu
+  215  ls -l
+  216  vi tamer0.csh 
+  217  vi names.dmp 
+  218  vi gi_taxid_nucl.dmp 
+  219  head gi_taxid_nucl.dmp 
+  220  vi tamer0.csh 
+  221  scp /Users/mlu/SimLC-454.cd4d8764.fna.gz menglu@login.hpc.arizona.edu:~/blast
+  222  cd /home/u26/menglu
+  223  ls
+  224  cd blast/
+  225  ls
+  226  ls -l
+  227  cp SimLC-454.cd4d8764.fna.gz /gsfs1/xdisk/menglu/SimLC.fna.gz
+  228  cd /gsfs1/xdisk/menglu
+  229  ls -l
+  230  gunzip SimLC.fna.gz 
+  231  ls -l
+  232  vi tamer0.csh 
+  233  qsub tamer0.csh 
+  234  qstat -u menglu
+  235  ls -l
+  236  qstat -u menglu
+  237  vi tamer0.csh 
+  238  cp SimLC.fna SimLC.fasta
+  239  ls -l
+  240  vi tamer0.csh 
+  241  qstat -u menglu
+  242  qsub tamer0.csh 
+  243  qstat -u menglu
+  244  ls -l
+  245  vi small.out
+  246  qsub tamer0.csh 
+  247  vi blast0.o230668
+  248  ls
+  249  ls -l
+  250  cp SimML-454.cd71d2bb.fna.gz /gsfs1/xdisk/menglu/SimML.fna.gz
+  251  cd /home/u26/menglu
+  252  ls
+  253  cd blast/
+  254  ls
+  255  cp SimML-454.cd71d2bb.fna.gz /gsfs1/xdisk/menglu/SimML.fna.gz
+  256  cp SimHL-454.cd79f338.fna.gz /gsfs1/xdisk/menglu/SimHL.fna.gz
+  257  cd /gsfs1/xdisk/menglu
+  258  ls -l
+  259  gunzip SimML.fna.gz
+  260  gunzip SimHL.fna.gz
+  261  ls -l
+  262  mv SimML.fna SimMC.fasta
+  263  mv SimHL.fna SimHC.fasta
+  264  ls -l
+  265  rm SimLC.fna
+  266  ls -l
+  267  rm b*
+  268  ls -l
+  269  cd /gsfs1/xdisk/menglu
+  270  ls -l
+  271  vi tamer0.csh 
+  272  qsub tamer0.csh 
+  273  qstat -u menglu
+  274  ls -l
+  275  vi tamer0.csh 
+  276  qsub tamer0.csh 
+  277  qstat -u menglu
+  278  ls -l
+  279  cd /gsfs1/xdisk/menglu
+  280  scp menglu@login.hpc.arizona.edu:~/gsfs1/xdisk/menglu/*.out /Users/mlu/Research
+  281  ls -l
+  282  pwd
+  283  cp *.out /home/u26/menglu/blast
+  284  /home/u26/menglu/blast
+  285  ls -l
+  286  cd /home/u26/menglu/blast
+  287  ls -l
+  288  cd /gsfs1/xdisk/menglu
+  289  ls -l
+  290  vi tamer0.csh 
+  291  qsub tamer0.csh 
+  292  qstat -u menglu
+  293  ls -l
+  294  vi tamer0.csh 
+  295  qsub tamer0.csh 
+  296  qstat -u menglu
+  297  rm smallHC.fasta
+  298  rm smallMC.fasta
+  299  qstat -u menglu
+  300  vi tamer0.csh 
+  301  ls -l
+  302  qsub tamer0.csh 
+  303  qstat -u menglu
+  304  ls -l
+  305  rm smallHC.fasta
+  306  ls -l
+  307  vi smallHC.out
+  308  mv smallHC.out smallHC.xls
+  309  open smallHC.xls
+  310  mv smallHC.xls smallHC.out
+  311  ls -l
+  312  cd /gsfs1/xdisk/menglu
+  313  ls -l
+  314  head -10 small.out 
+  315  modual load R
+  316  module load R
+  317  R
+  318  qsub msws.csh
+  319  ls
+  320  cd workshop/
+  321  ls
+  322  qsub msws.csh 
+  323  ls
+  324  vi msws.csh 
+  325  qsub msws.csh 
+  326  vi msws.csh 
+  327  qsub msws.csh 
+  328  vi msws.csh 
+  329  ls
+  330  qsub msws.csh 
+  331  vi msws.csh 
+  332  qsub msws.csh 
+  333  ls
+  334  qstat msws.csh 
+  335  qstat -u menglu
+  336  ls
+  337   wget http://www.cals.arizona.edu/~anling/workshop/testset.fna
+  338  ls
+  339  qsub msws.csh 
+  340  ls
+  341  vi testset.txt
+  342  pwd
+  343  grep -c "O hits found" testset.txt
+  344  grep -c "0 hits found" testset.txt
+  345  rm *.e*
+  346  ls
+  347  R
+  348  module load R
+  349  R
+  350  wget http://cals.arizona.edu/~anling/software/taec_linus.zip
+  351  wget http://cals.arizona.edu/~anling/software/taec_linuz.zip
+  352  wget http://cals.arizona.edu/~anling/software/taec_linux.zip
+  353  ls
+  354  module load R
+  355  R
+  356  unzip taec_linux.zip
+  357  module load R
+  358  R
+  359  ls
+  360  cd taec_rev/
+  361  ls
+  362  R
+  363  ls
+  364  cd ..
+  365  ls
+  366  wget http://cals.arizona.edu/~anling/software/RAIDA_1.0.tar.gz
+  367  R
+  368  ls
+  369  pwd
+  370  R
+  371  logout
+  372  ls
+  373  mkdir workshop
+  374  ls
+  375  cd workshop/
+  376  ls
+  377  cd ..
+  378  ls
+  379  cd workshop/
+  380  wget http://www.cals.arizona.edu/~anling/workshop/tset.fna
+  381  ls
+  382  cp tset.fna ../
+  383  cd ..
+  384  ls
+  385  mv tset.fna tset.fa
+  386  ls
+  387  mv tset.fa ./workshop/
+  388  cd workshop/
+  389  ls
+  390  rm tset.fa
+  391  ls
+  392  cd ..
+  393  ls
+  394  cd workshop/
+  395  ls
+  396  head -10 tset.fna 
+  397  tail -3 tset.fna 
+  398  pwd
+  399  head -3 < tset.fna > t.f 
+  400  ls
+  401  man ls
+  402  grep -c ">" tset.fna
+  403  sed 's/>/@/g' tset.fna
+  404  sed 's/>/@/g' tset.fna > tset.fa
+  405  ls
+  406  vi tset.fna
+  407  module avail
+  408  module load blast
+  409  blastn
+  410  blastn -db/genome/Bacteria/NCBI.genomes Bacteria -query tset.fna-out tset.txt
+  411  blastn -db/genome/Bacteria/NCBI_genomes_Bacteria -query tset.fna-out tset.txt
+  412  blastn - db/genome/Bacteria/NCBI_genomes_Bacteria -query tset.fna-out tset.txt
+  413  blastn -db /genome/Bacteria/NCBI_genomes_Bacteria -query tset.fna-out tset.txt
+  414  blastn -db /genome/Bacteria/NCBI_genomes_Bacteria -query tset.fna -out tset.txt
+  415  ls
+  416  blastn -db /genome/Bacteria/NCBI_genomes_Bacteria -query tset.fna -out tset.txt -outfmt
+  417  blastn -db /genome/Bacteria/NCBI_genomes_Bacteria -query tset.fna -out tset.txt -out fmt
+  418  blastn -db /genome/Bacteria/NCBI_genomes_Bacteria -query tset.fna -out tset.txt -out fmt 7
+  419  blastn -db /genome/Bacteria/NCBI_genomes_Bacteria -query tset.fna -out tset.txt -outfmt 7
+  420  ls
+  421  vi tset.txt 
+  422  wget http://www.cals.arizona.edu/~anling/workshop/template.csh
+  423  ls
+  424  vi template.csh 
+  425  ls
+  426  mv template.csh msws.csh
+  427  ls
+  428  vi template.csh 
+  429  vi msws.csh 
+  430  ssh service2
+  431  logout
+  432  ls
+  433  cd blast/
+  434  ls
+  435  cd ..
+  436  ls
+  437  cd cd /home/u26/menglu/
+  438   cd /home/u26/menglu/
+  439  ls
+  440  cd ..
+  441  ls
+  442  cd menglu/
+  443  ls
+  444  nano
+  445  mkdir ABE587
+  446  ls
+  447  cd ABE587/
+  448  ls
+  449  nano
+  450  ls
+  451  ls --help
+  452  pwd
+  453  ls /
+  454  cd misc
+  455  ls
+  456  ls /
+  457  cd rsgreps1
+  458  cd rsgrps1
+  459  cd rsgrps1/
+  460  cd rsgrps1
+  461  cd home
+  462  ls
+  463  cd /rsgrps1
+  464  ls
+  465  cd mbsulli/
+  466  ls
+  467  cd .
+  468  ls
+  469  cd 
+  470  ls
+  471  ls /
+  472  cd -
+  473  ls
+  474  cd
+  475  s
+  476  ls
+  477  ls /
+  478  cd /rsgrps1
+  479  ls
+  480  cd mbsulli/
+  481  ls
+  482  cd ..
+  483  ls
+  484  cd ..
+  485  ls 
+  486  cd mbsulli/
+  487  cd /rsgrps1
+  488  cd mbsulli/
+  489  cd -/work/
+  490  cd ~/work/
+  491  ls
+  492  cd
+  493  ls
+  494  mkdir work
+  495  ls
+  496  cd /rsgrps1
+  497  cd mbsulli/
+  498  cd ~/work/
+  499  ls
+  500  ls -la work/
+  501  pwd
+  502  man wc
+  503  w | wc
+  504  w | wc -l
+  505  !
+  506  wc -l !
+  507  ls
+  508  wc -l ls
+  509  man sort
+  510  man uniq
+  511  date
+  512  man cat
+  513  ls
+  514  cd 
+  515  ls
+  516  ls /
+  517  cd /rsgrps1
+  518  ls
+  519  cd mbsulli/
+  520  ls
+  521  cd ..
+  522  ls
+  523  cd /rsgrps
+  524  ls
+  525  cd bhurwitz/
+  526  ls
+  527  cd bhurwitz/
+  528  ls
+  529  ls /
+  530  ls
+  531  cd blast/
+  532  ls
+  533  vi tamer0.csh 
+  534  ls
+  535  mkdir chicken
+  536  ls
+  537  cd chicken/
+  538  l
+  539  ls
+  540  cp XT_45.R1.truncated.gz truncated.fastq.gz 
+  541  ls
+  542  seqtk seq -a truncated.fastq.gz > out.fasta
+  543  fastq_to_fasta -i truncated.fastq.gz -o out.fasta.gz
+  544  gunzip truncated.fastq.gz
+  545  ls
+  546  vi outfasta
+  547  vi out.fasta
+  548  sed -n '1~4s/^@/>/p;2~4p' truncated.fastq > test.fasta
+  549  ls
+  550  vi test.fasta
+  551  ls
+  552  sed -n "1, 200p" test.fasta>small.fasta
+  553  vi small.fasta 
+  554  sed -n "1, 20p" small.fasta>little.fasta
+  555  vi little.fasta
+  556  cd
+  557  ls
+  558  cd ~/genomo
+  559  cd ~/genome
+  560  cd /genome
+  561  ls
+  562  cd Bacteria/
+  563  ls
+  564  ls -l
+  565  cd 
+  566  ls
+  567  cd chicken/
+  568  ls
+  569  man sed
+  570  ls
+  571  man cp
+  572  ls
+  573  pwd
+  574  ls
+  575  vi template.csh 
+  576  cd ..
+  577  ls
+  578  cd blast/
+  579  ls
+  580  vi tamer0.csh 
+  581  ls
+  582  cd chicken/
+  583  ls
+  584  vi template.csh 
+  585  vi template.csh vi template.csh 
+  586  ls
+  587  cd chicken/
+  588  ls
+  589  vi template.csh 
+  590  cd ..
+  591  ls
+  592  cd blast/
+  593  ls
+  594  vi tamer0.csh 
+  595  cd ..
+  596  ls
+  597  cd chicken/
+  598  ls
+  599  qsub template.csh 
+  600  ls
+  601  vi template.csh 
+  602  qsub template.csh 
+  603  pwd
+  604  vi template.csh 
+  605  qsub template.csh 
+  606  cd ..
+  607  ls
+  608  cd blast/
+  609  ls
+  610  vi tamer0.csh 
+  611  cd ..
+  612  ls
+  613  cd work
+  614  cd ..
+  615  ls
+  616  cd workshop/
+  617  ls
+  618  vi msws.csh 
+  619  cd ..
+  620  ls
+  621  cd chicken/
+  622  ls
+  623  mv small.fasta small.fna
+  624  ls
+  625  vi template.csh 
+  626  qsub template.csh 
+  627  cd ..
+  628  ls
+  629  cd workshop
+  630  ls
+  631  vi msws.csh 
+  632  cd ..
+  633  ls
+  634  cd chicken/
+  635  ls
+  636  vi template.csh 
+  637  qsub template.csh 
+  638  ls
+  639  qstat -u menglu
+  640  ls
+  641  vi template.csh 
+  642  ls
+  643  qstat -u menglu
+  644  vi template.csh 
+  645  qsub template.csh 
+  646  qstat -u menglu
+  647  ls
+  648  vi template.csh 
+  649  cd ..
+  650  ls
+  651  cd blast/
+  652  ls
+  653  vi tamer0.csh 
+  654  cd ..
+  655  ls
+  656  cd chicken/
+  657  ls
+  658  vi out.fasta 
+  659  vi template.csh 
+  660  ls
+  661  vi test.fasta 
+  662  cp test.fasta test.fna
+  663  ls
+  664  vi template.csh 
+  665  qsub template.csh 
+  666  qstat -u menglu
+  667  ls
+  668  vi template.csh 
+  669  qsub template.csh 
+  670  ls
+  671  vi template.csh 
+  672  vi blast.e530893
+  673  vi template.csh 
+  674  qsub template.csh 
+  675  qstat -u menglu
+  676  ls
+  677  vi blast.e530894
+  678  vi template.csh 
+  679  dos2unix template.csh 
+  680  qsub template.csh 
+  681  ls
+  682  vi blast.e530895
+  683  vi template.csh 
+  684  qsub template.csh 
+  685  ls
+  686  vi blast.e530896
+  687  cd ..
+  688  ls
+  689  cd blast/
+  690  ls
+  691  cd ..
+  692  ls
+  693  cd workshop
+  694  ls
+  695  vi msws.csh 
+  696  cd ..
+  697  ls
+  698  cd chicken/
+  699  ls
+  700  vi template.csh 
+  701  cd ..
+  702  ls
+  703  cd workshop/
+  704  ls
+  705  cd vi msws.csh 
+  706   vi msws.csh 
+  707  cd ..
+  708  ls
+  709  cd chicken/
+  710  ls
+  711  vi template.csh 
+  712  dos2unix template.csh 
+  713  qsub template.csh 
+  714  ls
+  715  vi blast.e530897
+  716  pwd
+  717  vi blast.e530897
+  718  vi template.csh 
+  719  vi blast.e530897
+  720  pwd
+  721  ls -l
+  722  rm b*.e*
+  723  rm b*.o*
+  724  ls -l
+  725  rm Alig*
+  726  ls
+  727  qsub template.csh 
+  728  ls
+  729  ls -l
+  730  vi blast.e530898 
+  731  pwd
+  732  vi template.csh 
+  733  qsub template.csh 
+  734  qstat -u menglu
+  735  ls
+  736  vi check_blastx.txt 
+  737  qstat -u menglu
+  738  ls
+  739  cd chicken/
+  740  ls
+  741  cp small.fna small.fasta
+  742  ls
+  743  vi template.csh 
+  744  qsub template.csh 
+  745  ls -l
+  746  vi blast.e530899
+  747  vi check_blastx.txt 
+  748  vi template.csh 
+  749  ls
+  750  vi output.txt 
+  751  ls -l
+  752  vi template.csh 
+  753  cd ..
+  754  ls
+  755  cd blast/
+  756  ls
+  757  vi tamer0.csh 
+  758  cd ..
+  759  ls
+  760  cd chicken/
+  761  ls
+  762  vi template.csh 
+  763  cd ..
+  764  ls
+  765  cd blast/
+  766  ls
+  767  vi ta
+  768  vi tamer0.csh 
+  769  cd ..
+  770  ls
+  771  cd chicken/
+  772  ls
+  773  vi template.csh 
+  774  qsub template.csh 
+  775  ls
+  776  vi test.fasta
+  777  vi template.csh 
+  778  qsub template.csh 
+  779  ls
+  780  cd chicken/
+  781  ls
+  782  cp template.csh tem1.csh
+  783  ls
+  784  vi tem1.csh 
+  785  sed -n "1, 2000p" test.fasta>1000.fasta
+  786  sed -n "1, 20000p" test.fasta>10000.fasta
+  787  ls
+  788  ls -l
+  789  pwd
+  790  ls
+  791  vi tem1.csh 
+  792  qsub tem1.csh 
+  793  vi tem1.csh 
+  794  ls
+  795  ls -l
+  796  vi output.txt 
+  797  rm output.txt
+  798  ls
+  799  qstat -u menglu
+  800  vi tem1.csh 
+  801  qsub tem1.csh 
+  802  vi template.csh 
+  803  qsub template.csh 
+  804  qstat -u menglu
+  805  ls -l
+  806  ls 
+  807  qstat -u menglu
+  808  vi template.csh 
+  809  qstat -u menglu
+  810  ls -l
+  811  vi output.txt 
+  812  vi template.csh 
+  813  ls -l
+  814  qstat -u menglu
+  815  ls -l
+  816  vi template.csh 
+  817  qsub template.csh 
+  818  ls
+  819  cd chicken/
+  820  ls
+  821  ls -l
+  822  qstat -u menglu
+  823  ls -l
+  824  vi template.csh 
+  825  LS -L
+  826  ls -l
+  827  ls 
+  828  ls -l
+  829  ls
+  830  rm b*
+  831  ls
+  832  rm output.txt
+  833  ls
+  834  vi template.csh 
+  835  qstat -u menglu
+  836  qsub template.csh 
+  837  ls
+  838  ls
+  839  cd chicken/
+  840  ls
+  841  ls -l
+  842  pwd
+  843  ls
+  844  cd ABE587/
+  845  LS
+  846  ls
+  847  rm na*
+  848  ls
+  849  LS
+  850  ls
+  851  ls -l
+  852  ls -lt
+  853  ls -lt | head
+  854  grep PATTERN > PATTERN.txt
+  855  ls
+  856  pwd
+  857  ls /
+  858  ls
+  859  ls -l | w -l
+  860  ls -l | wc -l
+  861  ls -l |grep -c dr
+  862  nano
+  863  ls
+  864  mv sequences.fasta ABE587/sequences.fasta
+  865  ls
+  866  cd ABE587/
+  867  ls
+  868  vi sequences.fasta 
+  869  ftp ftp.imicrobe.us
+  870  ls
+  871  cd ..
+  872  ls
+  873  mv ABE587/ abe487
+  874  ls
+  875  cd abe487/
+  876  ls
+  877  rm sequences.fasta 
+  878  ls
+  879  cp mouse.fa sequences.fasta
+  880  ls
+  881  w -l
+  882  wc -l sequences.fasta 
+  883  man wc
+  884  wc -m sequences.fasta 
+  885  head -1 sequences.fasta 
+  886  tail -3 sequences.fasta 
+  887  grep ">" $1 | wc -l
+  888  grep ">" sequences.fasta 
+  889  grep ">" sequences.fasta | wc -l
+  890  man mv
+  891  mv sequences.fasta mouse.fasta
+  892  ls
+  893  man ls
+  894  ls -l
+  895  ls -lt
+  896  ls -l | wc -l
+  897  ls -l |grep -c dr
+  898  ls
+  899  cd abe487/
+  900  ls
+  901  nano
+  902  ls
+  903  wc -l sequences.fasta 
+  904  wc -l mouse.fasta 
+  905  wc -m mouse.fasta 
+  906  head -1 mouse.fasta
+  907  tail -3 mouse.fasta
+  908  grep ">" sequences.fasta 
+  909  grep ">" mouse.fasta 
+  910  grep ">" mouse.fasta | wc -l
+  911  ls
+  912  cd ..
+  913  ls
+  914  cd abe487/
+  915  ls
+  916  mkdir fasta
+  917  cd ..
+  918  ls
+  919  cd meng
+  920  cd menglu/
+  921  ls
+  922  mkdir fasta
+  923  ls
+  924  cd abe487/
+  925  ls
+  926  rm fasta/
+  927  pwd
+  928  cd ..
+  929  ls
+  930  cd fasta/
+  931  ls
+  932  cp /home/u26/menglu/abe487/mouse.fasta mouse.fasta
+  933  ls
+  934  cd ..
+  935  ls
+  936  cd abe487/
+  937  ls
+  938  rm mouse.fasta
+  939  ls
+  940  cd ..
+  941  ls
+  942  man cp
+  943  man rm
+  944  history unixBasics.history.txt
+  945  ls
+  946  history > unixBasics.history.txt
