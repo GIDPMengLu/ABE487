@@ -8,9 +8,11 @@ my $num2 = shift;
 if (!defined($num1) or !defined($num2)){
 print "Please provide two numbers\n";
 }
-elseif($num1 < 0 or $num2 < 0){
+else{
+if($num1 < 0 or $num2 < 0){
 print "Please provide two positive numbers\n";
 }
 else{
 print $num1 + $num2,"\n";
+}
 }

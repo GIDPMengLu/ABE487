@@ -12,6 +12,6 @@ if($i+$j == 0){
 print "You are trying to trick me! We can not calculate the percentage\n";
 }
 else{
-print ($i/($i+$j)*100), "\n";
+print "($i/($i+$j))*100=", ($i/($i+$j))*100,"%\n";
 }
 }

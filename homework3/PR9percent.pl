@@ -1,9 +1,9 @@
 #!usr/bin/perl
-use strict
-use warnings
+use strict;
+use warnings;
 
-my $i = shift
-my $j = shift
+my $i = shift;
+my $j = shift;
 
 if(!defined($i) or !defined($j)){
 print "Please provide two numbers\n";

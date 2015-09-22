@@ -10,8 +10,9 @@ print "Please type two strings\n";
 }
 else{
 if(($str1 cmp $str2)>0){
-print "$str1 $str2\n";
-else{
 print "$str2 $str1\n";
+}
+else{
+print "$str1 $str2\n";
 }
 }

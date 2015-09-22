@@ -4,15 +4,16 @@ use warnings;
 
 my $str1 = shift;
 my $str2 = shift;
-if (!defined($str1)) or !defined($str2)){
+
+if (!defined($str1) or !defined($str2)){
 print "Please provide two strings\n";
 }
 else{
 if(($str1 cmp $str2) > 0){
-print "Right Order\n";
+print "Wrong Order\n";
 }
 else{
-print "Wrong Order\n";
+print "Right Order\n";
 }
 }
 
