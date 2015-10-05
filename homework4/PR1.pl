@@ -37,7 +37,7 @@ user sort it out.
 
   $ program.pl 1>out 2>err
 
-Half off.
+One point off.
 
 Please format your code with proper indentation.  Use the "perltidy" 
 program if you need:

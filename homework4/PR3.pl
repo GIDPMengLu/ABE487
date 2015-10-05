@@ -52,7 +52,7 @@ printed it.
 
 Overall, the script didn't work (see output below).  
 
-One point off.
+Two points off.
 
 [gila@~/work/students/gidpmenglu/homework4]$ perl PR3.pl Perl_III.fasta.txt  out
 
