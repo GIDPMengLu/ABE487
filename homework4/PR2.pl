@@ -18,7 +18,12 @@ while (my $line = <$IN>) {
 __END__
 
 Either "use autodie" or be sure to check the result of your "open"!
+Here is what your script did when I ran it because the input file 
+didn't exist!
 
-Never use global symbols for you file handles! Use scalars!
+    [gila@~/work/students/gidpmenglu/homework4]$ perl PR2.pl
+    readline() on closed filehandle IN at PR2.pl line 12.
+
+ll. 10-11: Never use global symbols for you file handles! Use scalars!
 
 Don't chomp if you're going to print the newline.
