@@ -25,7 +25,7 @@ else {
             $title = $line;
         }
         else {
-            $line     = ~tr/atcgATCG/tagcTAGC/;
+            $line     =~ tr/atcgATCG/tagcTAGC/;
             $sequence = reverse($line) . $sequence;
         }
     }
@@ -45,4 +45,42 @@ thing to do.
 
 ll. 13-14: No global filehandles!
 
+l. 28: Use of "tr" with the binding operator was written as "= ~tr".
 
+While you came close to creating the reverse complement, you never 
+printed it.
+
+Overall, the script didn't work (see output below).  
+
+One point off.
+
+[gila@~/work/students/gidpmenglu/homework4]$ perl PR3.pl Perl_III.fasta.txt  out
+
+
+Use of uninitialized value $_ in pattern match (m//) at PR3.pl line 20, <IN> lin
+
+
+e 1.
+Argument ">seq1" isn't numeric in numeric eq (==) at PR3.pl line 20, <IN> line 1.
+Use of uninitialized value $_ in transliteration (tr///) at PR3.pl line 27, <IN> line 1.
+Use of uninitialized value $_ in pattern match (m//) at PR3.pl line 20, <IN> line 2.
+Argument "AAGAGCAGCTCGCGCTAATGTGATAGATGGCGGTAAAGTAAATGTCCTATGGGCCA..." isn't numeric in numeric eq (==) at PR3.pl line 20, <IN> line 2.
+Use of uninitialized value $_ in transliteration (tr///) at PR3.pl line 27, <IN> line 2.
+Use of uninitialized value $_ in pattern match (m//) at PR3.pl line 20, <IN> line 3.
+Argument ">seq2" isn't numeric in numeric eq (==) at PR3.pl line 20, <IN> line 3.
+Use of uninitialized value $_ in transliteration (tr///) at PR3.pl line 27, <IN> line 3.
+Use of uninitialized value $_ in pattern match (m//) at PR3.pl line 20, <IN> line 4.
+Argument "GCCACAGAGCCTAGGACCCCAACCTAACCTAACCTAACCTAACCTACAGTTTGATC..." isn't numeric in numeric eq (==) at PR3.pl line 20, <IN> line 4.
+Use of uninitialized value $_ in transliteration (tr///) at PR3.pl line 27, <IN> line 4.
+Use of uninitialized value $_ in pattern match (m//) at PR3.pl line 20, <IN> line 5.
+Argument ">seq3" isn't numeric in numeric eq (==) at PR3.pl line 20, <IN> line 5.
+Use of uninitialized value $_ in transliteration (tr///) at PR3.pl line 27, <IN> line 5.
+Use of uninitialized value $_ in pattern match (m//) at PR3.pl line 20, <IN> line 6.
+Argument "ATGAAAGTTACATAAAGACTATTCGATGCATAAATAGTTCAGTTTTGAAAACTTAC..." isn't numeric in numeric eq (==) at PR3.pl line 20, <IN> line 6.
+Use of uninitialized value $_ in transliteration (tr///) at PR3.pl line 27, <IN> line 6.
+Use of uninitialized value $_ in pattern match (m//) at PR3.pl line 20, <IN> line 7.
+Argument ">seq4" isn't numeric in numeric eq (==) at PR3.pl line 20, <IN> line 7.
+Use of uninitialized value $_ in transliteration (tr///) at PR3.pl line 27, <IN> line 7.
+Use of uninitialized value $_ in pattern match (m//) at PR3.pl line 20, <IN> line 8.
+Argument "ATGCTAACCAAAGTTTCAGTTCGGACGTGTCGATGAGCGACGCTCAAAAAGGAAAC..." isn't numeric in numeric eq (==) at PR3.pl line 20, <IN> line 8.
+Use of uninitialized value $_ in transliteration (tr///) at PR3.pl line 27, <IN> line 8.
