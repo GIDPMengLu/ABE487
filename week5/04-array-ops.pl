@@ -18,3 +18,10 @@ my @push_array = push(@02,12);
 print "after push, array = ",join(',',@o2),"\n";
 my @unshift_array = unshift @o3,4;
 print "after unshift, array = ",join(',',@o3),"\n";
+
+__END__
+
+Why are you using four different arrays?  The assignment was to use one 
+array and create the expected output.  
+
+Two points off.
