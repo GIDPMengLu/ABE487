@@ -1,18 +1,14 @@
 #!usr/bin/perl
 use strict;
 use warnings;
+use autodie;
 
-#chomp(my $str = <>);
-my $str = shift;
-chomp($str = <>);
-if(!defined($str)){
-print "Please provide a word or phase";
+my $name = shift or die "Please provide a word or phase.\n";
+my $text = uc $name;
+$text =~s/[^a-zA-Z0-9]//g;
+if($text eq reverse($text)){
+print "Yes\n";
 }
 else{
-if ( $str eq reverse($str) ) {
-     print "Yes\n";
-}
-else {
-     print "No \n";
-}
+print "No\n";
 }
