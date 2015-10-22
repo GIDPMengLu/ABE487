@@ -1,9 +1,9 @@
-#!usr/bin/perl
+#!/usr/bin/perl
 
 use strict;
 use warnings;
 use autodie;
-my $file = shift @ARGV or die "Please provide a sequence or file\n";
+my $file = shift @ARGV or die "Please provide a sequence or file.\n";
 
 open my $fh, '<', $file;
 

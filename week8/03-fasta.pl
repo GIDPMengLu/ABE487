@@ -1,14 +1,10 @@
-#!usr/bin/perl
+#!/usr/bin/env perl
 
 use strict;
 use warnings;
-
-my $filename = shift @ARGV;
+use autodie;
+my $filename = shift @ARGV or die "Please provide a FASTA file.\n";
 my $count = 1;
-if(!defined($filename)){
-print "Please provide a FASTA file\n";
-}
-else{
 open my $fh, '<', $filename;
   while(<$fh>){
     chomp($_);
@@ -20,6 +16,5 @@ open my $fh, '<', $filename;
         #print "$header\n";
     }
 }
-print "Found"," ", $count-1," ", "sequences\n"
-}
+printf "Found %s sequence%s.\n", $count-1,$count-1==1?'':'s';
 
