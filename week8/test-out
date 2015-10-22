@@ -1,0 +1,88 @@
+not ok 1 - 01-palindrome.pl
+#   Failed test '01-palindrome.pl'
+#   at /usr/local/lib/perl5/site_perl/5.22.0/Test/Script/Run.pm line 258.
+#          got: '1'
+#     expected: '0'
+# Different in line: 1: got Please provide a word or phase
+not ok 2 - 01-palindrome.pl foo
+#   Failed test '01-palindrome.pl foo'
+#   at /usr/local/lib/perl5/site_perl/5.22.0/Test/Script/Run.pm line 258.
+#          got: '1'
+#     expected: '0'
+# Different in line: 1: got (No ), expect (No)
+not ok 3 - 01-palindrome.pl "Madam in Eden Im Adam"
+#   Failed test '01-palindrome.pl "Madam in Eden Im Adam"'
+#   at /usr/local/lib/perl5/site_perl/5.22.0/Test/Script/Run.pm line 258.
+#          got: '1'
+#     expected: '0'
+# Different in line: 1: got (No ), expect (Yes)
+ok 4 - 01-palindrome.pl gatcctag
+not ok 5 - 01-palindrome.pl "A man, a plan, a canal... Panama"
+#   Failed test '01-palindrome.pl "A man, a plan, a canal... Panama"'
+#   at /usr/local/lib/perl5/site_perl/5.22.0/Test/Script/Run.pm line 258.
+#          got: '1'
+#     expected: '0'
+# Different in line: 1: got (No ), expect (Yes)
+not ok 6 - 02-nobody.pl John
+#   Failed test '02-nobody.pl John'
+#   at /usr/local/lib/perl5/site_perl/5.22.0/Test/Script/Run.pm line 258.
+#          got: '22'
+#     expected: '0'
+# Different in line: 1: got (), expect (John by Shel Silverstein)
+# 
+# 2: got (   John by Shel Silverstein), expect (John loves me,)
+# 
+# 3: got (), expect (John cares,)
+# 
+# 4: got (   John loves me,), expect (John picks me peaches and pears.)
+# 
+# 5: got (), expect (John offers me candy and Cokes,)
+# 
+# 6: got (   John cares,), expect (John listens and laughs at me jokes.)
+# 
+# 7: got (), expect (John helps when I get in a fight,)
+# 
+# got nothing, expected: John does all my homework at night.
+# got nothing, expected: John misses me,
+# got nothing, expected: John cries,
+# got nothing, expected: John thinks I'm a wonderful guy.
+# got nothing, expected: So if you ask me who's my best friend, in a whiz,
+# got nothing, expected: I'll stand up and tell you that John is.
+# got nothing, expected: But yesterday night I got quite a scare,
+# got nothing, expected: I woke up and John just wasn't there.
+# got nothing, expected: I called out and reached out for John's hand,
+# got nothing, expected: In the darkness where John usually stands.
+# got nothing, expected: Then I poked through the house, in each cranny and nook,
+# got nothing, expected: But I found somebody each place that I looked.
+# got nothing, expected: I searched till I'm tired, and now with the dawn,
+# got nothing, expected: There's no doubt about it-
+# got nothing, expected: John's gone!
+not ok 7 - 03-fasta.pl
+#   Failed test '03-fasta.pl'
+#   at /usr/local/lib/perl5/site_perl/5.22.0/Test/Script/Run.pm line 258.
+#          got: '1'
+#     expected: '0'
+# Different in line: 1: got Please provide a FASTA file
+not ok 8 - 03-fasta.pl one.fa
+#   Failed test '03-fasta.pl one.fa'
+#   at /usr/local/lib/perl5/site_perl/5.22.0/Test/Script/Run.pm line 258.
+#          got: '1'
+#     expected: '0'
+# Different in line: 2: got (Found 1 sequences), expect (Found 1 sequence.)
+not ok 9 - 03-fasta.pl test.fa
+#   Failed test '03-fasta.pl test.fa'
+#   at /usr/local/lib/perl5/site_perl/5.22.0/Test/Script/Run.pm line 258.
+#          got: '1'
+#     expected: '0'
+# Different in line: 4: got (Found 3 sequences), expect (Found 3 sequences.)
+not ok 10 - 04-restriction.pl
+#   Failed test '04-restriction.pl'
+#   at /usr/local/lib/perl5/site_perl/5.22.0/Test/Script/Run.pm line 258.
+#          got: '1'
+#     expected: '0'
+# Different in line: 1: got (Please provide a sequence or file), expect (Please provide a sequence or file.)
+ok 11 - 04-restriction.pl seq.txt
+1..11
+The plan was already output at /usr/local/lib/perl5/5.22.0/Test/Builder.pm line 2510.
+1..11
+# Looks like you failed 9 tests of 11.
